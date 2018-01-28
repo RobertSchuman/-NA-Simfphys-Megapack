@@ -4,7 +4,7 @@ My MegaPack for all my vehicles i've created, this is specifically used for the 
 <h1> TUNING INSTRUCTIONS </h1>
 
 <li> Click the "Noobular's Vehicles/lua/autorun" folder </li>
-<li> Click the car you want to edit </l> 
+<li> Click the car file you want to edit </l> 
 <li> Click the edit button (Pencil icon) </l> 
 <li> Make your changes, submit pull request. /li>
 <li> Wait for it to be accepted/declined. </li> 
