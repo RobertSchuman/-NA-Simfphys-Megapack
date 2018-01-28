@@ -2,20 +2,20 @@ local Category = '(( Noobs Vehicles ))'
 
 local V = { 
 
-    Name = 'lancia_037_stradale_lw',
-    Model = 'models/lonewolfie/lancia_037_stradale.mdl',
+    Name = 'pon_firebirdtransamtdm',
+    Model = 'models/tdmcars/pon_firetransam.mdl',
     Class = 'mod_sent_vehicle_fphysics_base',
     Category = Category,
     --SpawnOffset = Vector(0,0,0),
 
     Members = {
-     Mass = 2500,
+     Mass = 1724,
     --MaxHealth = 1000,
     	--AirFriction = -250,
     --LightsTable = 'jeep', 
 
-    FrontWheelRadius = 15.10000038147,
-    RearWheelRadius = 15.10000038147,
+    FrontWheelRadius = 16.5,
+    RearWheelRadius = 16.5,
 
     CustomMassCenter = Vector(0,0,0),
     SeatOffset = Vector(0,0,-2),
@@ -35,28 +35,28 @@ local V = {
     FrontHeight = 15,
     RearHeight = 15,
 
-    FrontConstant = 19852,
-    RearConstant = 19852,
+    FrontConstant = 13690,
+    RearConstant = 13690,
 
 
-    FrontDamping = 2941,
-    RearDamping = 2941,
+    FrontDamping = 2028,
+    RearDamping = 2028,
 
 
-    FrontRelativeDamping = 2941, 
-    RearRelativeDamping = 2941,
+    FrontRelativeDamping = 2028, 
+    RearRelativeDamping = 2028,
 
 
     FastSteeringAngle = 20,
     SteeringFadeFastSpeed = 535,
     TurnSpeed = 4,
-    MaxGrip = 104,
+    MaxGrip = 71,
     Efficiency = 2,
     GripOffset = 0,
-    BrakePower = 59,
+    BrakePower = 41,
     IdleRPM = 750,
     LimitRPM = 6500,
-    PeakTorque = 150,
+    PeakTorque = 100.5,
     PowerbandStart = 1200, 
     PowerbandEnd = 5800,
     --Revlimiter = true,
@@ -70,17 +70,17 @@ local V = {
     PowerBias = 1,	
     EngineSoundPreset = -1,
     snd_pitch = 1,
-    snd_idle = 'vehicles/lwcars/lancia_037_stradale/idle.wav',
+    snd_idle = simulated_vehicles/4banger/4banger_idle.wav,
 
-    snd_low = 'vehicles/lwcars/lancia_037_stradale/second.wav',
+    snd_low = simulated_vehicles/4banger/4banger_low.wav,
     snd_low_pitch = 0.9,
 
-    snd_mid = 'vehicles/lwcars/lancia_037_stradale/third.wav',
-    snd_mid_gearup = 'vehicles/lwcars/lancia_037_stradale/fourth_cruise.wav',
+    snd_mid = simulated_vehicles/4banger/4banger_mid.wav,
+    snd_mid_gearup = simulated_vehicles/4banger/4banger_second.wav,
     snd_mid_pitch = 0.8,
     snd_horn = 'simulated_vehicles/horn_1.wav', 
     DifferentialGear = 0.8,
     Gears = {-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6}
     }
 }
-list.Set( 'simfphys_vehicles', 'simfphys_NV_lancia_037_stradale', V ) 
+list.Set( 'simfphys_vehicles', 'simfphys_NV_pon_firetransam', V ) 
