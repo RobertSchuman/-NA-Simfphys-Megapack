@@ -7,6 +7,7 @@ My MegaPack for all my vehicles i've created, this is specifically used for the 
 <li> Enjoy.
 
 <h1> TUNING INSTRUCTIONS </h1>
+(on github.com)
 
 <li> Click the "Noobular's Vehicles/lua/autorun" folder </li>
 <li> Click the car file you want to edit </l> 
