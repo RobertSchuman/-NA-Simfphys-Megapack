@@ -1,6 +1,6 @@
 local Category = '(( Noobs Vehicles ))'
-
--- Robert's Modification
+-- Created By: Noobular
+-- Tuned By: Robert Schuman
 
 local V = { 
 
